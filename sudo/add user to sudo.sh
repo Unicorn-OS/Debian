@@ -4,6 +4,8 @@
 
 add_sudoers(){
   /usr/sbin/visudo
+  
+  "username  ALL=(ALL) NOPASSWD:ALL"
 }
 
 test(){
