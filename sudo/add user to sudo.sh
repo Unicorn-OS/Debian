@@ -2,6 +2,10 @@
 # Have to use full path:
 /usr/sbin/usermod -aG sudo username
 
+add_sudoers(){
+  /usr/sbin/visudo
+}
+
 test(){
   sudo whoami
 }
